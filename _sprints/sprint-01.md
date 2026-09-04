@@ -10,8 +10,7 @@ O sensor fornece um valor inteiro entre 0 e 1023.
 
 A temperatura é dada por:
 
-
-$$ temp = 260*x/1023 - 20 $$ 
+temp = 260*x/1023 - 20 
 
 ## Requisitos
 
