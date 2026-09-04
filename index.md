@@ -12,7 +12,7 @@ Bem-vindos ao projeto.
 <ul>
 {% for item in site.noticias %}
   <li>
-  <a href="{{ item.url }}">{{ item.title }}</a>
+  <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
   </li>
 {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ Bem-vindos ao projeto.
 <ul>
 {% for sprint in site.sprints %}
   <li>
-  <a href="{{ sprint.url }}">{{ sprint.title }}</a>
+  <a href="{{ sprint.url | relative_url }}">{{ sprint.title }}</a>
   </li>
 {% endfor %}
 </ul>
