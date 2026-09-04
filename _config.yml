@@ -1,0 +1,33 @@
+title: Programação em C
+description: Sistema de Aquisição e Monitorização de Sensores
+
+theme: minima
+
+markdown: kramdown
+
+collections:
+  sprints:
+    output: true
+    permalink: /sprints/:name/
+
+  noticias:
+    output: true
+    permalink: /noticias/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+  - scope:
+      path: ""
+      type: sprints
+    values:
+      layout: page
+
+  - scope:
+      path: ""
+      type: noticias
+    values:
+      layout: page

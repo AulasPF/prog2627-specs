@@ -1,3 +1,9 @@
+---
+
+title: Início
+
+---
+
 # Sistema de Aquisição e Monitorização de Sensores
 
 Ao longo do semestre cada grupo irá desenvolver um sistema de aquisição,

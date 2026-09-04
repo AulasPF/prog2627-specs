@@ -1,3 +1,8 @@
+---
+title: Comunicado inicial
+---
+
+
 # Comunicado Inicial
 
 A empresa AeroSense pretende desenvolver um sistema simples de
