@@ -16,9 +16,9 @@ temp = 260*x/1023 - 20
 
 O programa deve:
 
-1. Ler um valor do sensor.
+1. Ler um valor do sensor, que é escrito pelo utilizador usando o teclado.
 2. Calcular a temperatura correspondente.
-3. Apresentar o resultado.
+3. Apresentar o resultado no ecrã.
 
 ## Exemplo
 
