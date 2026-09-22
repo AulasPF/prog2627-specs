@@ -1,5 +1,6 @@
 ---
 title: Sprint-01
+published: true
 ---
 
 # Sprint 1
