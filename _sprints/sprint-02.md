@@ -1,6 +1,6 @@
 ---
 title: Sprint-02
-published: false
+published: true
 ---
 
 # Sprint 2
@@ -30,6 +30,8 @@ O programa deve:
 ## Exemplo
 
 Valores de entrada e respectivas saídas: 
+
+
 
 | Entrada   | Saída | 
 | ----  | -----: |
