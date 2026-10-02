@@ -5,24 +5,33 @@ title: Roadmap
 
 # Roadmap
 
-## Etapa 1
-Aquisição de dados
+## Sprint 1 
+Ler e escrever valores
 
-## Etapa 2
-Validação de leituras
+## Sprint 2 
+Validar leituras
 
-## Etapa 3
-Aquisição contínua
+## Sprint 3 
+Ler dados em contínuo
 
-## Etapa 4
-Análise de medições
+## Sprint 4 
+Analisar medições
 
-## Etapa 5
-Múltiplos sensores
+## Sprint 5 
+Estruturar o código
 
-## Etapa 6
-Modelação de dados
+## Sprint 6 
+Ler dados de vários sensores
 
-## Etapa 7
-Persistência
+## Sprint 7 
+Definir características dos sensores
+
+## Sprint 8 
+Guardar dados que não desaparecem (persistência)
+
+
+## Sprint 9 
+Trabalhar com dados de tamanho desconhecido
+
+
 
