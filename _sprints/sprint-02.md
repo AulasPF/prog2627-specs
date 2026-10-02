@@ -41,6 +41,9 @@ Valores de entrada e respectivas saídas:
 | 50    | -7.29 |
 | ...   | ...   |
 | 800   | 183.32 | 
+| abc   | (valor rejeitado, é pedido novo valor)* |
 | 820   | 188.41 |
 | 850   | Valor fora da gama |
 | 900   | Valor fora da gama |
+
+*Nota: corresponde às especificações adicionais. Só aplicável se as especificações base tiverem sido cumpridas. 

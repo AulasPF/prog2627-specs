@@ -1,5 +1,7 @@
 ---
 title: Comunicado inicial
+published: true
+date: 2026-09-14
 ---
 
 

@@ -8,4 +8,4 @@ date: 2026-10-15
 
 Data: {{ page.date | date: "%d/%m/%Y" }}
 
-É por vezes necessário rever os valores que foram introduzidos, quer para os verificar, que para calcular estatísticas. Deve ser possível, depois de introduzir uma série de valores, rever os valores introduzidos e realizar operações sobre estes valores. 
+É por vezes necessário rever os valores que foram introduzidos, quer para os verificar, quer para calcular estatísticas. Deve ser possível, depois de introduzir uma série de valores, rever os valores introduzidos e realizar operações sobre estes valores. 
