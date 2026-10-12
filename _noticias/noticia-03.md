@@ -1,6 +1,6 @@
 ---
 title: Leitura de valores em sequência
-published: false
+published: true
 date: 2026-10-08
 ---
 
