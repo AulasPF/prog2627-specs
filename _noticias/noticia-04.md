@@ -1,6 +1,6 @@
 ---
 title: Revisão de valores introduzidos
-published: false
+published: true
 date: 2026-10-15
 ---
 
