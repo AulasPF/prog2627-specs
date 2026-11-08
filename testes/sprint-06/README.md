@@ -1,3 +1,9 @@
+---
+title: Sprint 06
+parent: Testes
+published: true
+---
+
 # Testes do Sprint 06
 
 Ficheiros de entrada para testar o programa do Sprint 06. Cada ficheiro é lido por redirecionamento ou pipe:
@@ -27,3 +33,10 @@ Os testes estão ordenados por complexidade crescente. Os resultados indicados a
 - Nos testes 08 e 09 há sempre menos de 20 linhas antes do `FIM`. Assim, o resultado é o mesmo quer "Sensor desconhecido" e "Linha inválida" contem para o limite de leituras, quer não.
 - No `teste-09.txt`, a linha `TEMP3 1 2 092` tem um campo a mais e deve ser considerada "Linha inválida". Uma implementação baseada em `scanf` pode aceitá-la indevidamente.
 - O `teste-10.txt` só deve ser usado depois de implementados os requisitos adicionais.
+
+{% assign testes = site.static_files | where_exp: "f", "f.path contains '/testes/sprint-06/'" %}
+<ul>
+{% for f in testes %}
+  <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+{% endfor %}
+</ul>

@@ -1,6 +1,6 @@
 ---
 title: Sprint-06
-published: false
+published: true
 ---
 
 # Sprint 6
@@ -53,12 +53,27 @@ O programa deve cumprir as especificações anteriores, incluindo a organizaçã
    1. A lista de todas as leituras registadas, indicando o sensor, o instante, o valor lido e a temperatura.
    2. Para cada sensor com leituras, o número de valores lidos, a temperatura mínima, a máxima, a média e o desvio-padrão.
 
+### Notas
+
+1. Numa primeira fase, vai-se considerar que todas as linhas com sensor válido têm pelo menos três elementos. Por exemplo (considerando que apenas `TEMP1` e `TEMP2` são indentificadores de sensor válidos): 
+   
+| # | Linha | Resultado |
+|---|-------|-----------|
+| 1|`TEMP1 1 234` | Indica valor de temperatura |
+| 2|`TEMP9 2 334` | Indica "Sensor inválido" |
+| 3|`TEMP9`       | Indica "Sensor inválido" |
+| 4|`TEMP2 2 abc` | Indica "Linha inválida" | 
+| 5|`TEMP2 2`     | Indica "Linha inválida" | 
+
+A situação da linha 5 pode ser deixada para uma segunda fase. 
+
 ### Requisitos adicionais
 
 **Nota:** Estes requisitos só devem ser implementados após a conclusão com sucesso dos requisitos base.
 
 1. Os campos de cada linha podem estar separados por um ou mais espaços ou tabulações. Linhas em branco são ignoradas.
-2. Para cada sensor, indicar também o instante em que ocorreram a temperatura mínima e a temperatura máxima.
+2. O programa deve rejeitar linhas duplicadas. Uma linha considera-se duplicada quando tenha o mesmo identificador do sensor e o instante que uma linha anterior. Ou seja, duas linhas com o mesmo identificador e instante correspondem a uma única leitura. 
+3. Para cada sensor, indicar também o instante em que ocorreram a temperatura mínima e a temperatura máxima.
 
 ## Exemplo
 
@@ -145,3 +160,7 @@ Temperatura máxima:    118.43
 Temperatura média:     118.43
 Desvio-padrão:           0.00
 ```
+
+## Testes
+
+Está disponível em [testes/sprint-06]({% link testes/sprint-06/README.md %}) um conjunto de ficheiros para testar o funcionamento do programa. 
