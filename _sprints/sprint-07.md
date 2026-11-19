@@ -1,6 +1,6 @@
 ---
 title: Sprint-07
-published: false
+published: true
 ---
 
 # Sprint 7

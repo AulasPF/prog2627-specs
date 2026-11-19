@@ -1,6 +1,6 @@
 ---
 title: Características próprias de cada sensor
-published: false
+published: true
 date: 2026-11-20
 ---
 
