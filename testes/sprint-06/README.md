@@ -13,6 +13,17 @@ Ficheiros de entrada para testar o programa do Sprint 06. Cada ficheiro é lido 
 cat teste-01.txt | ./programa
 ```
 
+## Descarregar os testes
+
+O script [`obter-testes.sh`](https://aulaspf.github.io/prog2627-specs/testes/sprint-06/obter-testes.sh) descarrega todos os ficheiros de teste deste sprint para a pasta `testes/sprint-06`, e o script `testar.sh` para a pasta `testes`. Na pasta onde está o código do programa, execute:
+
+```text
+curl -O https://aulaspf.github.io/prog2627-specs/testes/sprint-06/obter-testes.sh
+bash obter-testes.sh
+```
+
+O script é só uma lista de comandos `curl`, um por ficheiro. Abra-o num editor para ver o que faz.
+
 Os testes estão ordenados por complexidade crescente. Os resultados indicados assumem um limite máximo de **20 leituras**. Os ficheiros que atingem o limite têm 30 linhas válidas, pelo que servem para qualquer limite até 30.
 
 | Ficheiro | Objetivo | Resultado esperado |
