@@ -1,7 +1,7 @@
 ---
 title: Sprint 07
 parent: Testes
-published: false
+published: true
 ---
 
 # Testes do Sprint 07
